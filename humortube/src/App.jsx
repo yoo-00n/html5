@@ -55,7 +55,7 @@ function App() {
       />
 
       <h1> 두번 째</h1>
-      
+
       <iframe
         width="560"
         height="315"
@@ -67,6 +67,13 @@ function App() {
         allowFullScreen
       />
 
+      <video width="560" height="315" controls>
+        <source
+          src = "https://raw.githubusercontent.com/yoo-00n/html5/main/20230729_194315.mp4"
+          type="video/mp4">
+         </source>
+        </video>
+        
     </div>
   );
 }
